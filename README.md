@@ -1,1 +1,5 @@
 # CS628-PE04
+In the input stage, the user interacts with the application by providing data or selecting items from the interface. When adding a new city, the user types in a name, country, population, and description into the form fields.
+During the processing stage, React’s state management stores the newly provided details in an array structure. Routing mechanisms, powered by React Router, dynamically update the view to display or hide components. 
+The useParams hook determines which city ID is requested. The system then retrieves the relevant city information from the data array. Finally, the processed results are rendered on-screen, forming the application’s output. 
+For example, the city list is updated with the newly added city, and the appropriate city details appear in nested routes.
